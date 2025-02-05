@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fr">
-<title> Ocean Association - Principal Main </title>
+<title> Ocean Association - User Interface </title>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,20 +17,41 @@
 
 <ul class="nav">
   <li class="nav-item"><a href="index.html">Menu</a></li>
-  <li class="nav-item"><a style="color: grey">Interface Utilisateur</a></li> 
+  <li class="nav-item"><a href="page3.html">Gestion des prêts matériels</a></li>
+  <li class="nav-item"><a href="page4.html">Géolocalisation</a></li>  
   <li class="nav-item"><a href="page5.html">Calendrier</a></li> 
-  <li class="nav-item"><a href="page6.html">Guide de l'Utilisateur</a></li> 
   <li class="nav-item"><a href="page0.html">Plus</a></li> 
 </ul> 
 
+<div class=ex1>
 <body>
-<h1> Interface Utilisateur </h1>
+    <h1>Interface Utilisateur</h1>
+    <div class="user-info">
+        <p><strong>Nom :</strong> <span id="user-name">Masson Sacksith Anurak</span></p>
+        <p><strong>Email :</strong> <span id="user-email">masson.sacksith.anurak-bkpentertainment@outlook.com</span></p>
+		<p><strong>Lieu :</strong> <span id="user-location">Lyon, 69002</span></p>
+    </div>
+
+    <script>
+        // Exemple : Masson Sacksith Anurak
+        const user = {
+            name: "Masson Sacksith Anurak",
+            email: "masson.sacksith.anurak-bkpentertainment@outlook.com",
+			location: "Lyon, 69002",
+        };
+
+        // Insértion des données utilisateur dans le HTML
+        document.getElementById('user-name').textContent = user.name;
+        document.getElementById('user-email').textContent = user.email;
+		document.getElementById('user-location').textContent = user.location;
+    </script>
 <br />
-<a href = "https://127.0.0.1"> Interface Utilisateur - 127.0.0.1</a>
-<br />
-<br />
-<a href = "index.html"> Retour </a>
-<br />
-<a href = "page0.html"> Références </a>
 </body>
+<h5><a href = "index.html"> Déconnexion </a></h5>
+<br />
+<h5><a href = "page0.html"> Références </a></h5>
+<h4>BTS CIEL 2024-2025</h4>
+<h6>BACCAM Mickael, DEFRANCE Sylvain, GRARADJI Eddy, TALIBY Osama</h6>
+<h6>Lycée Polyvalent Édouard Branly - Lyon 5</h6>
+</div>
 </html>

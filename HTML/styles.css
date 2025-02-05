@@ -1,5 +1,13 @@
 body {
 background-color: #04AA6D;
+font-family: Calibri;
+margin: 0px;
+}
+
+.ex1 {
+background-color: #F0F0F0;
+font-family: Calibri;
+margin : 0px 0px 40px 40px;
 }
 
 h1 {
@@ -26,8 +34,6 @@ h6 {
 	font-size: 14px;
 }
 
-
-
 ul { 
   list-style-type: none; 
   margin: 0; 
@@ -50,4 +56,8 @@ li a:hover:not(.active) {
 } 
 .active { 
   background-color: #04AA6D; 
+}
+
+#map{
+	height: 400px;
 }
