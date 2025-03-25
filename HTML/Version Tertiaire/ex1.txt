@@ -1,8 +1,0 @@
-<div class=ex1>
-</div>
-
-.ex1 {
-background: #F0F0F0;
-font-family: Calibri;
-margin 0px 0px 40px 40px;
-}
