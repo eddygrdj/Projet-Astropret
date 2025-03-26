@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<title> Ocean Association - User Interface </title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color: #F0F0F0">
+    <div class="centre" id="header" style="background-color: #4682B4; height: 75px; width: auto; padding-top: 20px;">
+      <div id="headertext" style="color: #87CEFA; font-size: 28px; font-weight:bold; margin-left: 5%;"> Ocean Association Cooperative Co.Ltd </div>
+      </div>
+
+<ul class="nav">
+  <li class="nav-item"><a href="index.html">Menu</a></li>
+  <li class="nav-item"><a href="page5.html">Calendrier</a></li> 
+    <li class="nav-item"><a href="">Catalogue</a></li> 
+  <li class="nav-item"><a href="page0.html">Plus</a></li> 
+</ul> 
+
+<div class=ex1>
+<body>
+    <h1>Interface Utilisateur</h1>
+    <img src="photo-2.jpg" alt="Photo Profile">
+    <br />
+    <br />
+    <div class="user-info">
+        <p><strong>Nom :</strong> <span id="user-name">Mickael BACCAM Sacksith</span></p>
+        <p><strong>Mail :</strong> <span id="user-email">mickaelbaccam@icloud.com</span></p>
+		<p><strong>Lieu :</strong> <span id="user-location">Lyon, 69002</span></p>
+    <p><strong>Fonction :</strong> <span id="user-skill">Ouvrier</span></p>
+    </div>
+
+    <script>
+        // Exemple : Mickael BACCAM Sacksith
+        const user = {
+            name: "Mickael BACCAM Sacksith",
+            email: "mickaelbaccam@icloud.com",
+			location: "Lyon, 69002",
+      skill: "Ouvrier",
+        };
+
+        // Insertion des données utilisateur dans le HTML
+        document.getElementById('user-name').textContent = user.name;
+        document.getElementById('user-email').textContent = user.email;
+		document.getElementById('user-location').textContent = user.location;
+    document.getElementById('user-skills').textContent = user.skills;
+    </script>
+<br />
+</body>
+<h5><a href = "page1_viewdocuments.html"> Documents fournies </a></h5>
+<br />
+<h5><a href = "page1_inaccessible.html"> Paramètres du compte </a></h5>
+<h5><a href = "page1_inaccessible.html"> Gestionnaire de Documents </a></h5>
+<h5><a href = "page1_inaccessible.html"> Accessibilité </a></h5>
+<h5><a href = "page3.html"> Gestionnaire de Prêts </a></h5>
+<h5><a href = "page1_inaccessible.html"> Gestionnaire du Catalogue </a></h5>
+<h5><a href = "page5.html"> Gestionnaire du Calendrier </a></h5>
+<h5><a href = "page4.html"> Gestionnaire du Géolocalisation </a></h5>
+<h5><a href = "page1_inaccessible.html"> Informations conçue à votre compte </a></h5>
+<br />
+<br />
+<h5><a href = "index.html"> Déconnexion </a></h5>
+<br />
+<h5><a href = "page0.html"> Références </a></h5>
+<h4>BTS CIEL 2024-2025</h4>
+<h6>BACCAM Mickael, DEFRANCE Sylvain, GRARADJI Eddy, TALIBY Osama</h6>
+<h6>Lycée Polyvalent Édouard Branly - Lyon 5</h6>
+<p>&copy; 2025 AstroPret Project<br>
+  <a href="PAGE_RGPD.html"> Plus du Détails </a><br>
+  Les données utilisées sur le site ne sont conservées que par les gérants du site.<br>
+</div>
+</html>

@@ -1,0 +1,21 @@
+Index :
+Menu
+Références
+
+Page :
+Page 1 : Interface Utilisateur V
+Page 2 : Interface Utilisateur - Admin, Technicien -
+Page 3 : Prêts - Admin, Technicien V
+Page 4 : Géolocalisation - Admin, Technicien V
+Page 5 : Gestion du Calendrier - Admin, Technicien V
+Page 6 : Guide de l'Utilisateur V
+Page 7 : Location - Admin, Technicien
+Page 8 : Matériels et Logiciels - Admin, Technicien -
+Page 9 : Informations - Utilisateur
+Page 10 : Actualités - Utilisateur
+Page 11 : Charte et Confidentialité - Admin X
+
+Possesion :
+CFI-2016B Old browser test Mode -> ASUS macOS Sequoia 15.3.1 X
+CFI-2016B Exclusion Mode -> ASUS macOS Sequoia 15.3.1 X
+CFI-7021 Professionnal Pro Plus -> ASUS macOS Sequoia 15.3.1 X
