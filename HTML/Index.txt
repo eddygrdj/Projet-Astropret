@@ -1,0 +1,22 @@
+Index :
+Menu
+Références
+
+Page 0 : Références V
+Page 1 : Interface Utilisateur V
+Page 2 : Interface Utilisateur - Admin V
+Page 3 : Prêts V
+Page 4 : Géolocalisation V
+Page 5 : Gestion du Calendrier V
+Page 6 : Guide de l'Utilisateur V
+Page 7 : Location
+Page 8 : Matériels et Logiciels
+Page 9 : Informations - Utilisateur
+Page 10 : Actualités - Utilisateur
+Page 11 : Charte et Confidentialité - RGPD
+
+Possession :
+CUH-1116B Old browser test Mode - Orbis Os 12.50 -> ASUS macOS Sequoia 15.3.1 - Pass
+CFI-2016B Exclusion Mode - AMD -> ASUS macOS Sequoia 15.3.1 - Pass
+CFI-7021 Professional Pro Plus - AMD -> ASUS macOS Sequoia 15.4 - Pass
+CFI-7021B30 Professional Pro Ultra - Prospero 0S 2025 -> ASUS mac0S Sequoia 15.4 - In Development
